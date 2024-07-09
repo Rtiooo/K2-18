@@ -1,12 +1,13 @@
-name: ep-json
-displayName: JSON Example Solar System!
-author: Slotterleet
-subtitle: Themelight included
+name: ep-json-K2-18
+displayName: JSON Example K2-18!
+author: Rtiooo
+subtitle: ....
 description: 
 '''
 This planet has (almost) every single field you can declare in JSON planets. Press the "Repo" button below to see the source code.
 
 This is NOT meant to be played.
+
+By Slotterleet
 '''
-repo: Slotterleet/example-planet-json
 minGameVersion: 146
