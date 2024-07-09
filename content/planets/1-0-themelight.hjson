@@ -1,5 +1,5 @@
 # The planet's display name. If you want to support multiple languages, use bundles instead!
-localizedName: Themelight
+localizedName: K2-18
 
 # The mesh of this star. SunMesh should now be supported in v146, thanks to my PR. (hehe, shameless plug)
 mesh: {
@@ -18,14 +18,11 @@ mesh: {
     # Yet another noise property.
     mag: 0.5
     # Scaling of color values.
-    colorScale: 1
+    colorScale: 2
     # Array of colors to use in your star. Any number of color values can be here!
     colors: [
-        ffe06f
-        ffe790
-        ffedae
-        fff8c8
-        ffe53b
+        ff1900
+        ff3300
     ]
 }
 
