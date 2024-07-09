@@ -1,5 +1,5 @@
 # The planet's display name. If you want to support multiple languages, use bundles instead!
-localizedName: Jason 2.0
+localizedName: K2-18b
 
 # The mesh of the planet. At least MultiMesh is supported, so you can put multiple
 # NoiseMesh'es to your planet!
@@ -7,23 +7,23 @@ mesh: {
   # Mesh type. Self-explanatory.
   type: NoiseMesh
   # A number used for mesh generation.
-  seed: 69
+  seed: 78
   # Mesh "quality". More divisions = more hexagons.
-  divisions: 4
+  divisions: 7
   # First color to be used.
-  color1: a2a2c2
+  color1: 785f00
   # Second color to be used.
-  color2: 22262b
+  color2: 93f500
   # Mesh radius.
   radius: 0.8
   # A noise property.
-  octaves: 3
+  octaves: 9
   # A noise property.
-  persistence: 0.8
+  persistence: 0.9
   # Noise scale.
-  scale: 1
+  scale: 2
   # A noise property.
-  mag: 1.5
+  mag: 0.8
 }
 
 # The mesh used for clouds. (Now supported btw)
@@ -55,40 +55,40 @@ cloudMesh: {
 # better make sector presets and don't waste your time with this.
 generator: {
   # Mininum amount of asteroids.
-  min: 1
+  min: 2
   # Maximum amount of asteroids.
-  max: 1
+  max: 3
 
   # Noise properties.
-  octaves: 2
-  persistence: 0.4
-  scale: 30
+  octaves: 6
+  persistence: 0.5
+  scale: 50
   mag: 0.4
   thresh: 1
-  foct: 3
+  foct: 7
   fmag: 0.5
   fscl: 50
   fper: 0.6
 
   # Asteroid radius range.
   radMin: 600
-  radMax: 600
+  radMax: 800
 
   # This one is ABSOLUTELY pointless, lmao.
   stoneChance: 0
 
   # Terrain generation chances, in order: ice > carbon > beryl > ferric.
-  iceChance: 0.5
-  carbonChance: 1
-  berylChance: 0
-  ferricChance: 0
+  iceChance: 0.7
+  carbonChance: 0.8
+  berylChance: 0.1
+  ferricChance: 0.1
 }
 
 # Make sure this planet is always accessible anytime.
 alwaysUnlocked: true
 # This determines the size of the sector grid.
 # Fun fact: The console will warn you about this "unknown" field, but it also functions properly at the same time.
-sectorSize: 1
+sectorSize: 3
 # Spacing between a parent (this) and satellites.
 orbitSpacing: 12
 # Radius of this planet's sphere.
@@ -99,11 +99,11 @@ minZoom: 0.5
 drawOrbit: true
 # Atmosphere offset.
 atmosphereRadIn: 0
-atmosphereRadOut: 0.3
+atmosphereRadOut: 0.8
 # Whether this can be landed on.
 accessible: true
 # Toggle day-night cycle.
-updateLighting: false
+updateLighting: true
 # A number used for sector generation. If == -1, planet ID is picked instead.
 sectorSeed: 529
 # Whether this planet is blooming.
@@ -113,7 +113,7 @@ visible: true
 # Also self-explanatory...
 atmosphereColor: aaaaaaaa
 # The color of the planet's icon displayed in top-left dialog.
-iconColor: 29302b
+iconColor: 93f500
 # Another self-explanatory field...
 hasAtmosphere: false
 # Whether simulate waves when off-planet.
